@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { useAuth } from '@redwoodjs/auth'
+import { useAuth } from 'src/auth'
 
 const Auth = () => {
   const { logIn } = useAuth()

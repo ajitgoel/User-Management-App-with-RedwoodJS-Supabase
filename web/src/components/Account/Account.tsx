@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import { useAuth } from '@redwoodjs/auth'
+import { useAuth } from 'src/auth'
 
 const Account = () => {
   const { client: supabase, currentUser, logOut } = useAuth()
