@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 
 import { useAuth } from 'src/auth'
+import Avatar from 'src/components/Avatar'
 
 const Account = () => {
   const { client: supabase, currentUser, logOut } = useAuth()
@@ -75,6 +76,14 @@ const Account = () => {
         <h1 className="header">Supabase + RedwoodJS</h1>
         <p className="description">Your profile</p>
         <div className="form-widget">
+          <Avatar
+            url={avatar_url}
+            size={150}
+            onUpload={(url) => {
+              setAvatarUrl(url)
+              updateProfile({ username, website, avatar_url: url })
+            }}
+          />
           <div>
             <label htmlFor="email">Email</label>
             <input id="email" type="text" value={currentUser.email} disabled />
