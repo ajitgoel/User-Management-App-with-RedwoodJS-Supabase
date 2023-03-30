@@ -119,3 +119,6 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 - Stay updated: read [Forum announcements](https://community.redwoodjs.com/c/announcements/5), follow us on [Twitter](https://twitter.com/redwoodjs), and subscribe to the [newsletter](https://redwoodjs.com/newsletter)
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
+
+- [How to Use Queues with RedwoodJS](https://ryanchenkie.com/blog/how-to-use-queues-with-redwoodjs)
+- [How We Send Emails with RedwoodJS + Faktory](https://community.redwoodjs.com/t/how-we-send-emails-with-redwoodjs-faktory/3857)

@@ -13,10 +13,11 @@
     ]
   },
   "dependencies": {
-    "@redwoodjs/auth-supabase-web": "4.1.4",
-    "@redwoodjs/forms": "4.1.4",
-    "@redwoodjs/router": "4.1.4",
-    "@redwoodjs/web": "4.1.4",
+    "@maizzle/framework": "latest",
+    "@redwoodjs/auth-supabase-web": "4.4.2",
+    "@redwoodjs/forms": "4.4.2",
+    "@redwoodjs/router": "4.4.2",
+    "@redwoodjs/web": "4.4.2",
     "@supabase/supabase-js": "^1",
     "prop-types": "15.8.1",
     "react": "17.0.2",
